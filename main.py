@@ -1,4 +1,4 @@
-import math
+from datetime import date
 
-inp = input("give me a number:\n")
-print("The ln of your number is: " + str(math.log(int(inp))))
+today = date.today()
+print("Today's date:", today)
